@@ -1,0 +1,100 @@
+<html>
+    <head>
+         <title>LogIn</title>
+         <link rel="stylesheet" href="home.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <style>
+       *{
+            margin:0;
+            padding: 0;
+            font-family: Century Gothic;
+
+        }
+
+        body
+        {
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(login.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center; 
+        }
+        header h1{
+            text-align: center;
+            font-size: 40px;
+
+            margin-bottom: 50px;
+            padding: 13px 0;
+
+        }
+        section{
+
+          width:280px;
+            position: absolute;
+            top:50%;
+            left:52%;
+            transform: translate(-50%,-50%);
+            color:white;
+          }
+         aside{
+
+width:280px;
+
+  top:250px;
+  padding-left: 20px;
+  
+
+  color:white;
+}
+
+
+        
+
+   </style>
+    <body>
+            <header>
+                
+
+                    <div class="main">
+        
+                        <ul>
+                                                <li><canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;background-color: black">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+        
+                                                        <script>
+                                                        var c = document.getElementById("myCanvas");
+                                                        var ctx = c.getContext("2d");
+                                                        // Create gradient
+                                                        var grd = ctx.createLinearGradient(0,0,200,0);
+                                                        grd.addColorStop(0,"red");
+                                                        grd.addColorStop(1,"white");
+                                                        // Fill with gradient
+                                                        ctx.fillStyle = grd;
+                                                        ctx.fillRect(10,10,172,80);
+        
+                                                        ctx.font = "30px Arial";
+                                                        ctx.strokeStyle="blue";
+                                            
+                                                        ctx.strokeText("QuickStudy",10,50);
+                                                        </script></li>
+                                                        <li><a href="index.html">Home</a></li>
+                                                        <li><a href="login.html">Login</a></li>
+                                                        <li><a href="register.html">Register</a></li>
+                                                        <li><a href="upload_paper.html">Upload Paper</a></li>
+                                                        <li><a href="search_paper.html">Search Paper</a></li>
+                                                        <li><a href="aboutus.html">About Us</a></li>                    
+
+                        </ul>
+                    </div>
+                    
+
+        
+        
+<h1>About Us</h1>
+    </header>
+        <section>
+            <p>Our Aim to make this website is students can refer papers of many collages and schools and can practice more.Also student can download papers.Student can upload papers of different collages of different courses.</p>
+          </section>
+ 
+          </body>
+    </html>

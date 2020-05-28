@@ -1,0 +1,57 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="home.css">
+         <title>Prepare for Exam</title>
+
+   </head>
+
+    <body>
+        <header>
+
+            <div class="main">
+
+                <ul>
+                                        <li><canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;background-color: black">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+                                                <script>
+                                                var c = document.getElementById("myCanvas");
+                                                var ctx = c.getContext("2d");
+                                                // Create gradient
+                                                var grd = ctx.createLinearGradient(0,0,200,0);
+                                                grd.addColorStop(0,"red");
+                                                grd.addColorStop(1,"white");
+                                                // Fill with gradient
+                                                ctx.fillStyle = grd;
+                                                ctx.fillRect(10,10,172,80);
+
+                                                ctx.font = "30px Arial";
+                                                ctx.strokeStyle="blue";
+                                    
+                                                ctx.strokeText("QuickStudy",10,50);
+                                                </script></li>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                                        <li><a href="register.html">Register</a></li>
+                                                        <li><a href="upload_paper.html">Upload Paper</a></li>
+                                                        <li><a href="search_paper.html">Search Paper</a></li>
+                                                        <li><a href="aboutus.html">About Us</a></li>                    
+ 
+                </ul>
+            </div>
+            
+                <div id="flex-container">
+                    <div><div class="flex-item">111</div><div class="flex-item2" style="font-style: italic">BTECH</div></div>
+                    <div><div class="flex-item">120</div><div class="flex-item2" style="font-style: italic">MSC(IT)</div></div>
+                    <div><div class="flex-item">90</div><div class="flex-item2" style="font-style: italic">BCOMvjbjmbkjb</div></div>
+                    <div><div class="flex-item">50</div><div class="flex-item2" style="font-style: italic">MCA</div></div>   
+                    <div><div class="flex-item">60</div><div class="flex-item2" style="font-style: italic">12th</div></div>
+                 </div>
+
+
+        </header>
+        
+        
+    </body>
+    
+</html>
